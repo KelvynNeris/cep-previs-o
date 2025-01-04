@@ -1,0 +1,74 @@
+body,
+ul{
+
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: sans-serif;
+    transition: 0.6s ease;
+}
+
+
+a:hover{
+
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+}
+
+
+#logo{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-weight: bold;
+}
+
+
+.container-menu{
+
+    z-index: 1000;
+    /* Altura máxima de 70px de altura, descontando o padding de 1rem */
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    height: 70px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #000000;
+}
+
+
+
+#menu{
+
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+}
+
+/* Aumentar a área de contato para uma tela touch */
+#menu a{
+
+    display: block;
+    padding: 0.5rem;
+}
+
+
+#btn-mobile{
+
+    display: none;
+}
+
+#logo img{
+
+    height: calc(100% + 2rem);
+}

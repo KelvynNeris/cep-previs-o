@@ -1,0 +1,119 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+
+    background: linear-gradient(to bottom, black, white);
+    overflow-x: hidden;
+}
+
+section{
+
+    padding-top: calc(8vh + 70px);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.img{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+.text{
+
+    gap: 50px;
+    padding: 0 100px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    width: 50%;
+}
+
+.img img{
+
+    width: 50%;
+}
+
+.text a{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: solid 1px rgb(247, 222, 5);
+    color: rgb(247, 222, 5);
+    width: 150px;
+    height: 30px;
+}
+
+.text a:hover{
+
+    color: black;
+    background-color: rgb(247, 222, 5);
+}
+
+.um a{
+
+    border: solid 1px rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
+}
+
+.um a:hover{
+
+    color: white;
+    background-color: rgb(255, 0, 0);
+}
+
+.dois a{
+
+    border: solid 1px rgb(0, 0, 0);
+    color: black;
+}
+
+.dois a:hover{
+
+    background-color: black;
+    color: white;
+}
+
+.dois p{
+
+    color: black;
+}
+
+.dois h2{
+
+    color: black;
+}
+
+@media(max-width: 650px){
+
+    section{
+
+        flex-direction: column;
+    }
+
+    .img{
+
+        width: 100%;
+    }
+
+    .text{
+
+        gap: 8px;
+        padding: 10px;
+        width: 100%;
+    }
+}

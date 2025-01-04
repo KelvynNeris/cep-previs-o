@@ -1,0 +1,11 @@
+@media only screen and (min-width: 768px){
+
+    .cont-header{
+
+        gap: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: initial;
+    }
+}

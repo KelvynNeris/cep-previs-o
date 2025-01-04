@@ -36,4 +36,4 @@ Este projeto é uma página web interativa que permite ao usuário acessar infor
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/kelvyn/cep-previs-o.git
+   git clone https://github.com/kelvyn/cep-previsao.git

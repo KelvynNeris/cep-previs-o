@@ -5,11 +5,32 @@
     box-sizing: border-box;
 }
 
-html{
-
-    background: linear-gradient(to bottom, black, white);
+html {
+    background: linear-gradient(135deg, #1a1a1a, #002b5b, #f9d342, #2c3e50, #ffc857, #243b55, #1a1a1a);
+    background-size: 400% 400%;
+    animation: gradientAnimation 12s ease infinite;
     overflow-x: hidden;
 }
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    25% {
+        background-position: 50% 0%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    75% {
+        background-position: 50% 100%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
 
 section{
 
